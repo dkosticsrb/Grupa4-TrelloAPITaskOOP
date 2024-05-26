@@ -1,0 +1,2 @@
+trello_key = "8f226c254a80e9d55de41c6efcee20c2"
+trello_token = "ATTAb83d3f692c65052cfdc50d696338531a5fa1e1f3901f39c6dd0dcdfb0aac81af5FD0AE6A"

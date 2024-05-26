@@ -1,0 +1,57 @@
+[
+    {
+        "id": "66533b2a356c483ec2308ffd",
+        "idMemberCreator": "66435f2673b16eaeadcfecdd",
+        "data": {
+            "text": "Comment 3",
+            "textData": {
+                "emoji": {}
+            },
+            "card": {
+                "id": "664a6509c16fe4203c31bacc",
+                "name": "Code review",
+                "idShort": 3,
+                "shortLink": "om6iRfSm"
+            },
+            "board": {
+                "id": "6643823f5fe1c752dfcb9801",
+                "name": "Zadaci za automatizaciju",
+                "shortLink": "MoIHHSp5"
+            },
+            "list": {
+                "id": "66438240fd83e15957862231",
+                "name": "To do"
+            },
+            "dateLastEdited": "2024-05-26T13:38:01.778Z"
+        },
+        "appCreator": null,
+        "type": "commentCard",
+        "date": "2024-05-26T13:37:46.158Z",
+        "limits": {
+            "reactions": {
+                "perAction": {
+                    "status": "ok",
+                    "disableAt": 900,
+                    "warnAt": 720
+                },
+                "uniquePerAction": {
+                    "status": "ok",
+                    "disableAt": 17,
+                    "warnAt": 14
+                }
+            }
+        },
+        "memberCreator": {
+            "id": "66435f2673b16eaeadcfecdd",
+            "activityBlocked": false,
+            "avatarHash": "100f368676a0d435292790c97c6e8115",
+            "avatarUrl": "https://trello-members.s3.amazonaws.com/66435f2673b16eaeadcfecdd/100f368676a0d435292790c97c6e8115",
+            "fullName": "David Kostic",
+            "idMemberReferrer": null,
+            "initials": "DK",
+            "nonPublic": {},
+            "nonPublicAvailable": true,
+            "username": "dkosticsrb"
+        }
+    }
+]

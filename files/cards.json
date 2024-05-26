@@ -1,0 +1,209 @@
+[
+    {
+        "id": "6643824060805e9d4164da50",
+        "badges": {
+            "attachmentsByType": {
+                "trello": {
+                    "board": 0,
+                    "card": 0
+                }
+            },
+            "externalSource": null,
+            "location": false,
+            "votes": 0,
+            "viewingMemberVoted": false,
+            "subscribed": true,
+            "fogbugz": "",
+            "checkItems": 0,
+            "checkItemsChecked": 0,
+            "checkItemsEarliestDue": null,
+            "comments": 1,
+            "attachments": 1,
+            "description": true,
+            "due": null,
+            "dueComplete": false,
+            "start": null,
+            "lastUpdatedByAi": false
+        },
+        "checkItemStates": [],
+        "closed": false,
+        "dueComplete": false,
+        "dateLastActivity": "2024-05-26T19:25:33.518Z",
+        "desc": "Project planning is part of project management, which relates to the use of schedules such as Gantt charts to plan and subsequently report progress within the project environment. Project planning can be done manually or by the use of project management software.",
+        "descData": {
+            "emoji": {}
+        },
+        "due": null,
+        "dueReminder": null,
+        "email": null,
+        "idBoard": "6643823f5fe1c752dfcb9801",
+        "idChecklists": [
+            "6653387da21fa80950660b01",
+            "6653389c53f2bb629da2beb2",
+            "665338aa0ff8cbe6c0849f30"
+        ],
+        "idList": "66438240fd83e15957862231",
+        "idMembers": [],
+        "idMembersVoted": [],
+        "idShort": 1,
+        "idAttachmentCover": "66538cac22b06e736cc32f23",
+        "labels": [],
+        "idLabels": [],
+        "manualCoverAttachment": false,
+        "name": "Project planning",
+        "pos": 1,
+        "shortLink": "fHA0pVBH",
+        "shortUrl": "https://trello.com/c/fHA0pVBH",
+        "start": null,
+        "subscribed": true,
+        "url": "https://trello.com/c/fHA0pVBH/1-project-planning",
+        "cover": {
+            "idAttachment": "66538cac22b06e736cc32f23",
+            "color": null,
+            "idUploadedBackground": null,
+            "size": "normal",
+            "brightness": "dark",
+            "idPlugin": null
+        },
+        "isTemplate": false,
+        "cardRole": null
+    },
+    {
+        "id": "664382406d0fa14300824120",
+        "badges": {
+            "attachmentsByType": {
+                "trello": {
+                    "board": 0,
+                    "card": 0
+                }
+            },
+            "externalSource": null,
+            "location": false,
+            "votes": 0,
+            "viewingMemberVoted": false,
+            "subscribed": true,
+            "fogbugz": "",
+            "checkItems": 0,
+            "checkItemsChecked": 0,
+            "checkItemsEarliestDue": null,
+            "comments": 1,
+            "attachments": 0,
+            "description": true,
+            "due": null,
+            "dueComplete": false,
+            "start": null,
+            "lastUpdatedByAi": false
+        },
+        "checkItemStates": [],
+        "closed": false,
+        "dueComplete": false,
+        "dateLastActivity": "2024-05-26T13:38:12.920Z",
+        "desc": "A kickoff meeting is the first meeting with the project team and with or without the client of the project. This meeting would follow definition of the base elements for the project and other project planning activities.",
+        "descData": {
+            "emoji": {}
+        },
+        "due": null,
+        "dueReminder": null,
+        "email": null,
+        "idBoard": "6643823f5fe1c752dfcb9801",
+        "idChecklists": [
+            "665338f7c362977cea797014",
+            "665338ff2cf78d9118bbe657",
+            "665339046aa5b64a8673dbb0"
+        ],
+        "idList": "66438240fd83e15957862231",
+        "idMembers": [],
+        "idMembersVoted": [],
+        "idShort": 2,
+        "idAttachmentCover": null,
+        "labels": [],
+        "idLabels": [],
+        "manualCoverAttachment": false,
+        "name": "Kickoff meeting",
+        "pos": 2,
+        "shortLink": "qMVH4Yaz",
+        "shortUrl": "https://trello.com/c/qMVH4Yaz",
+        "start": null,
+        "subscribed": true,
+        "url": "https://trello.com/c/qMVH4Yaz/2-kickoff-meeting",
+        "cover": {
+            "idAttachment": null,
+            "color": null,
+            "idUploadedBackground": null,
+            "size": "normal",
+            "brightness": "dark",
+            "idPlugin": null
+        },
+        "isTemplate": false,
+        "cardRole": null
+    },
+    {
+        "id": "664a6509c16fe4203c31bacc",
+        "badges": {
+            "attachmentsByType": {
+                "trello": {
+                    "board": 0,
+                    "card": 0
+                }
+            },
+            "externalSource": null,
+            "location": false,
+            "votes": 0,
+            "viewingMemberVoted": false,
+            "subscribed": true,
+            "attachments": 0,
+            "fogbugz": "",
+            "checkItems": 0,
+            "checkItemsChecked": 0,
+            "checkItemsEarliestDue": null,
+            "comments": 1,
+            "description": true,
+            "due": null,
+            "dueComplete": false,
+            "lastUpdatedByAi": false,
+            "start": null
+        },
+        "checkItemStates": [],
+        "closed": false,
+        "dueComplete": false,
+        "dateLastActivity": "2024-05-26T13:38:01.763Z",
+        "desc": "Code review is a software quality assurance activity in which one or more people check a program, mainly by viewing and reading parts of its source code, either after implementation or as an interruption of implementation.",
+        "descData": {
+            "emoji": {}
+        },
+        "due": null,
+        "dueReminder": null,
+        "email": null,
+        "idBoard": "6643823f5fe1c752dfcb9801",
+        "idChecklists": [
+            "6653393daeec18ab4fda47df",
+            "66533950a502f5e6df721d93",
+            "6653396bd53fe2d6b7826bf7"
+        ],
+        "idList": "66438240fd83e15957862231",
+        "idMembers": [],
+        "idMembersVoted": [],
+        "idShort": 3,
+        "idAttachmentCover": null,
+        "labels": [],
+        "idLabels": [],
+        "manualCoverAttachment": false,
+        "name": "Code review",
+        "pos": 65538,
+        "shortLink": "om6iRfSm",
+        "shortUrl": "https://trello.com/c/om6iRfSm",
+        "start": null,
+        "subscribed": true,
+        "url": "https://trello.com/c/om6iRfSm/3-code-review",
+        "cover": {
+            "idAttachment": null,
+            "color": null,
+            "idUploadedBackground": null,
+            "size": "normal",
+            "brightness": "dark",
+            "idPlugin": null
+        },
+        "isTemplate": false,
+        "cardRole": null
+    }
+]
