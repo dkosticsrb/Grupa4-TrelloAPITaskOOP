@@ -7,7 +7,7 @@ from models.comment import Comment
 from client import GenericClient
 from file_reader import FileReader as File
 
-# deklaracija varijabli
+# deklaracija i inicijalizacija varijabli
 trello_key = API.trello_key
 trello_token = API.trello_token
 board_id = "6643823f5fe1c752dfcb9801"
@@ -15,14 +15,14 @@ list_id = "66438240fd83e15957862231"
 cards = []
 checklists = []
 comments = []
-file_directory = File("files/")
 checklist_json = None
 comment_json = None
 
-# inicijalizacija klase sa API parametrima
+# instanciranje klase sa API parametrima i klase sa putanjom do direktorijuma
 client = GenericClient(trello_key, trello_token)
+file_directory = File("files/")
 
-# dohvatanje JSON fajlova i dodavanje u klase
+# dohvatanje JSON fajlova i dodavanje u klase u models/ direktorijumu
 board_json = client.get("boards/" + board_id)
 new_board = Board(board_json.get("id"), board_json.get("name"), board_json.get("desc"))
 
@@ -53,7 +53,7 @@ for card in cards_json:
         )
         comments.append(new_comment)
 
-# stampanje klasa iz /models/ direktorijuma
+# stampanje klasa iz models/ direktorijuma
 print(new_board.__str__() + "\n")
 print(new_list.__str__() + "\n")
 for card in cards:
@@ -66,7 +66,7 @@ for card in cards:
             print("    " + comment.__str__())
 print("")
 
-# cuvanje fajlova u files direktorijum
+# cuvanje fajlova u files/ direktorijum
 file_directory.save_file("board.json", board_json)
 file_directory.save_file("list.json", list_json)
 file_directory.save_file("cards.json", cards_json)
