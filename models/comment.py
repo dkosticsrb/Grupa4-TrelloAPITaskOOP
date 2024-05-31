@@ -7,3 +7,4 @@ class Comment:
     text: str
     fullName: str
     idCard: str
+    idBoard: str

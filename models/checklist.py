@@ -5,5 +5,5 @@ from dataclasses import dataclass
 class Checklist:
     id: str
     name: str
-    idBoard: str
     idCard: str
+    idBoard: str
