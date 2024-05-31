@@ -30,7 +30,7 @@ class GenericClient:
         return response.json()
 
     # definisanje post metode
-    def post(self, url_endpoint: str) -> dict:
+    def post(self, url_endpoint: str, **argument) -> dict:
         url = "https://api.trello.com/1/" + url_endpoint
 
         headers = {
@@ -38,6 +38,7 @@ class GenericClient:
         }
 
         query = {
+            **argument,
             'key': self.trello_key,
             'token': self.trello_token
         }
@@ -48,4 +49,39 @@ class GenericClient:
             headers=headers,
             params=query
         )
+        return response.json()
+
+    # definisanje put metode
+    def put(self, url_endpoint: str, **argument) -> dict:
+        url = "https://api.trello.com/1/" + url_endpoint
+
+        query = {
+            **argument,
+            'key': self.trello_key,
+            'token': self.trello_token
+        }
+
+        response = requests.request(
+            "PUT",
+            url,
+            params=query
+        )
+
+        return response.json()
+
+    # definisanje delete metode
+    def delete(self, url_endpoint: str) -> dict:
+        url = "https://api.trello.com/1/" + url_endpoint
+
+        query = {
+            'key': self.trello_key,
+            'token': self.trello_token
+        }
+
+        response = requests.request(
+            "DELETE",
+            url,
+            params=query
+        )
+
         return response.json()
